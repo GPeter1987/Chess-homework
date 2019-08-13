@@ -1,0 +1,56 @@
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#pageH {
+  text-align: center;
+}
+
+#boardBg {
+  display:block;
+  margin:auto;
+  width: 800px;
+  height: 800px;
+  background-color: #4b3a26;
+}
+
+#tableBg{
+  display:block;
+  margin: auto;
+  position: relative;
+  top:25px;
+  width: 750px;
+  height: 750px;
+  background-color: #997950;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 750px;
+  height: 750px;
+  border: 1px solid #4b3a26;
+}
+
+.cell {
+  width: 75px;
+  height: 75px;
+  border:2px solid #4b3a26;
+}
+
+
+/* Bábú méretek beállítása */
+i {
+  font-size: 50px;
+}
+
+/* Mező színek beállítása */
+.s {
+  background-color: #4b3a26;
+}
+
+
+
+  

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>Chess board</title>
+    <meta name="DESCRIPTRION" content="Táblázatból készített sakktábla házifeladat gyanánt" />
+    <meta name="KEYWORDS" content="sakk, chess, bábú, board, tábla" />
+    <meta charset="utf-8" />
+    <meta name="author" content="Gaál Péter" />
+    <meta name="content-language" content="hungarian"/>
+    <meta name="robots" content="index"/>
+    <meta name="revisit-after" content="3 months"/>
+    <meta name="copyright" content="opensorce"/>
+    <meta name="date" content="2019-07-30"/>
+    
+    <!-- Fontok -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+    
+    <!-- Bábúk -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    
+    <!-- CSS fájl -->
+    <link href="chess.css" rel="stylesheet" type="text/css">
+    
+  </head>
+  
+  <body>
+    <header>
+      <div id = "pageH">
+        <h1 class = "pageT">
+          Sakktábla házifeladat
+        </h1>
+      </div>
+    </header>
+    <content>
+      <div id = "boardBg">
+        
+        <div id = "tableBg">
+          <table >
+            <thead>
+              <tr>
+                <td>   </td>
+                <td> A </td>
+                <td> B </td>
+                <td> C </td>
+                <td> D </td>
+                <td> E </td>
+                <td> F </td>
+                <td> G </td>
+                <td> H </td>
+                <td>   </td>
+              </tr>
+            </thead>
+            
+            <tbody>
+              <tr>
+                <td> 1 </td>
+                <td class="cell"> <i class="fas fa-chess-rook" ></i> </td>
+                <td class="cell s"> <i class="fas fa-chess-knight"></i> </td>
+                <td class="cell"> <i class="fas fa-chess-bishop"></i> </td>
+                <td class="cell s"> <i class="fas fa-chess-king"></i> </td>
+                <td class="cell"> <i class="fas fa-chess-queen"></i> </td>
+                <td class="cell s"> <i class="fas fa-chess-bishop"></i> </td>
+                <td class="cell"> <i class="fas fa-chess-knight"></i> </td>
+                <td class="cell s"> <i class="fas fa-chess-rook"></i> </td>
+                <td> 1 </td>
+              </tr>
+              <tr>
+                <td> 2 </td>
+                <td class="cell s"> <i class="fas fa-chess-pawn"></i> </td>
+                <td class="cell"> <i class="fas fa-chess-pawn"></i> </td>
+                <td class="cell s"> <i class="fas fa-chess-pawn"></i> </td>
+                <td class="cell"> <i class="fas fa-chess-pawn"></i> </td>
+                <td class="cell s"> <i class="fas fa-chess-pawn"></i> </td>
+                <td class="cell"> <i class="fas fa-chess-pawn"></i> </td>
+                <td class="cell s"> <i class="fas fa-chess-pawn"></i> </td>
+                <td class="cell"> <i class="fas fa-chess-pawn"></i> </td>
+                <td> 2 </td>
+              </tr>
+              <tr>
+                <td> 3 </td>
+                <td class="cell">  </td>
+                <td class="cell s">  </td>
+                <td class="cell">  </td>
+                <td class="cell s">  </td>
+                <td class="cell">  </td>
+                <td class="cell s">  </td>
+                <td class="cell">  </td>
+                <td class="cell s">  </td>
+                <td> 3 </td>
+              </tr>
+              <tr>
+                <td> 4 </td>
+                <td class="cell s">  </td>
+                <td class="cell">  </td>
+                <td class="cell s">  </td>
+                <td class="cell">  </td>
+                <td class="cell s">  </td>
+                <td class="cell">  </td>
+                <td class="cell s">  </td>
+                <td class="cell">  </td>
+                <td> 4 </td>
+              </tr>
+              <tr>
+                <td> 5 </td>
+                <td class="cell">  </td>
+                <td class="cell s">  </td>
+                <td class="cell">  </td>
+                <td class="cell s">  </td>
+                <td class="cell">  </td>
+                <td class="cell s">  </td>
+                <td class="cell">  </td>
+                <td class="cell s">  </td>
+                <td> 5 </td>
+              </tr>
+              <tr>
+                <td> 6 </td>
+                <td class="cell s">  </td>
+                <td class="cell">  </td>
+                <td class="cell s">  </td>
+                <td class="cell">  </td>
+                <td class="cell s">  </td>
+                <td class="cell">  </td>
+                <td class="cell s">  </td>
+                <td class="cell">  </td>
+                <td> 6 </td>
+              </tr>
+              <tr>
+                <td> 7 </td>
+                <td class="cell"> <i class="fas fa-chess-pawn" style="color: #ffffff"></i> </td>
+                <td class="cell s"> <i class="fas fa-chess-pawn" style="color: #ffffff"></i> </td>
+                <td class="cell"> <i class="fas fa-chess-pawn" style="color: #ffffff"></i> </td>
+                <td class="cell s"> <i class="fas fa-chess-pawn" style="color: #ffffff"></i> </td>
+                <td class="cell"> <i class="fas fa-chess-pawn" style="color: #ffffff"></i> </td>
+                <td class="cell s"> <i class="fas fa-chess-pawn" style="color: #ffffff"></i> </td>
+                <td class="cell"> <i class="fas fa-chess-pawn" style="color: #ffffff"></i> </td>
+                <td class="cell s"> <i class="fas fa-chess-pawn" style="color: #ffffff"></i> </td>
+                <td> 7 </td>
+              </tr>
+              <tr>
+                <td> 8 </td>
+                <td class="cell s"> <i class="fas fa-chess-rook"  style="color: #ffffff"></i> </td>
+                <td class="cell"> <i class="fas fa-chess-knight" style="color: #ffffff"></i> </td>
+                <td class="cell s"> <i class="fas fa-chess-bishop" style="color: #ffffff"></i> </td>
+                <td class="cell"> <i class="fas fa-chess-king" style="color: #ffffff"></i> </td>
+                <td class="cell s"> <i class="fas fa-chess-queen" style="color: #ffffff"></i> </td>
+                <td class="cell"> <i class="fas fa-chess-bishop" style="color: #ffffff"></i> </td>
+                <td class="cell s"> <i class="fas fa-chess-knight" style="color: #ffffff"></i> </td>
+                <td class="cell"> <i class="fas fa-chess-rook" style="color: #ffffff"></i> </td>
+                <td> 8 </td>
+              </tr>
+            </tbody>
+            
+            <tfoot>
+              <tr>
+                <td>   </td>
+                <td> A </td>
+                <td> B </td>
+                <td> C </td>
+                <td> D </td>
+                <td> E </td>
+                <td> F </td>
+                <td> G </td>
+                <td> H </td>
+                <td>   </td>
+              </tr>
+            </tfoot>
+            
+          </table>
+        </div>
+        
+      </div>
+    </content>
+  </body>
+  
+</html>
